@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>SpotlightPls by alex_png</string>
+		</dict>
+		<dict>
+			<key>alignment</key>
+			<string>0</string>
+			<key>background</key>
+			<string>#EFEFF4</string>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>cellClass</key>
+			<string>PFHeaderCell</string>
+			<key>height</key>
+			<integer>165</integer>
+			<key>icon</key>
+			<string>banner.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Enable this option if you want to invoke Spotlight by swiping right on the status bar.</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.alexpng.spotlightpls.prefschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.alexpng.spotlightpls</string>
+			<key>key</key>
+			<string>useSwipeR</string>
+			<key>label</key>
+			<string>Swipe Right on Status Bar</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Enable this option if you want to invoke Spotlight by swiping left on the status bar.</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.alexpng.spotlightpls.prefschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.alexpng.spotlightpls</string>
+			<key>key</key>
+			<string>useSwipeL</string>
+			<key>label</key>
+			<string>Swipe Left on Status Bar</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Enable this option if you want to invoke Spotlight by long pressing on the status bar.</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.alexpng.spotlightpls.prefschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.alexpng.spotlightpls</string>
+			<key>key</key>
+			<string>useLongPress</string>
+			<key>label</key>
+			<string>Long Press on Status Bar</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Enable this option if you want to invoke Spotlight by swiping down the status bar with 2 fingers.</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.alexpng.spotlightpls.prefschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.alexpng.spotlightpls</string>
+			<key>key</key>
+			<string>useTwoFingers</string>
+			<key>label</key>
+			<string>Swipe Down 2 Fingers</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Enable this option if you want to invoke Spotlight by shaking your device.</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.alexpng.spotlightpls.prefschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.alexpng.spotlightpls</string>
+			<key>key</key>
+			<string>useShake</string>
+			<key>label</key>
+			<string>Shake to open Spotlight</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Enable this option if you’d like to have Haptic Feedback when invoking Spotlight Search.</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.alexpng.spotlightpls.prefschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.alexpng.spotlightpls</string>
+			<key>key</key>
+			<string>useHaptic</string>
+			<key>label</key>
+			<string>Haptic Feedback</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Feel free to contact me in case of any bugs or issues.</string>
+			<key>label</key>
+			<string>Contact Me:</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>Twitter</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>twitter.png</string>
+			<key>label</key>
+			<string>@its_alex_png</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>Reddit</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>reddit.png</string>
+			<key>label</key>
+			<string>/u/alex_png</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>GitHub</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>github.png</string>
+			<key>label</key>
+			<string>github.com/alexPNG</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>Email</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>email.png</string>
+			<key>label</key>
+			<string>alex.png.cc@gmail.com</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Support me and my work in case you appreciate it and would like to support me.</string>
+			<key>label</key>
+			<string>Support My Work:</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>PayPal</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>paypal.png</string>
+			<key>label</key>
+			<string>paypal.me/devalexpng</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Check out my other tweaks, they’re all available in my repository.</string>
+			<key>label</key>
+			<string>Tweak Repository:</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>Repository</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>repo.png</string>
+			<key>label</key>
+			<string>https://alexpng.github.io</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>SpotlightPls by alex_png</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>SpotlightPls</string>
+</dict>
+</plist>

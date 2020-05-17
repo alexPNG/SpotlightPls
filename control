@@ -1,0 +1,12 @@
+Package: com.alexpng.spotlightpls
+Name: SpotlightPls
+Description: Invoke Spotlight Search from anywhere with gestures and triggers.
+Version: 1.0
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Maintainer: alex_png <alex.png.cc@gmail.com>
+Author: alex_png <alex.png.cc@gmail.com>
+Depiction: https://alexpng.github.io/depictions/com.alexpng.spotlightpls/
+Icon: https://alexpng.github.io/depictions/com.alexpng.spotlightpls/DebIcon.png
+SileoDepiction: https://alexpng.github.io/depictions/com.alexpng.spotlightpls/spotlightpls.json
